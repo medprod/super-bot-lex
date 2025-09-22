@@ -4,22 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
-    <title>Chatbot UI iFrame Example</title>
+    <title>Super Bot - HR Policy Assistant</title>
     <!--  bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   </head>
   <body>
     <div class="container-fluid"><!-- main container -->
-      <h1>Lex Chatbot UI Sample Parent Page</h1>
+      <h1>Super Bot - HR Policy Assistant</h1>
       <p class="lead">
-        Use the chatbot UI to drive your bot. This page will dynamically
+        Use Super Bot to get answers about company HR policies. This page will dynamically
         update using the associated Lex variables as the bot dialog progresses.
       </p>
 
       <div class="row">
         <div class="col-md-6">
           <div class="panel panel-primary">
-            <div class="panel-heading">Send "Buy Flowers" utterance to iframe</div>
+            <div class="panel-heading">Send "HR Policy Question" utterance to iframe</div>
             <div class="panel-body">
               <div>
                 <button id="send-intent" type="button" class="btn btn-default" disabled>
@@ -290,7 +290,7 @@
         // setup Send button handler
         $('#send-intent').on('click', function(event) {
           event.preventDefault();
-          sendUtterance('Buy Flowers');
+          sendUtterance('What are the company vacation policies?');
         });
 
 

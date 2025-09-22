@@ -14,9 +14,9 @@
     "waitingForAgentMessageIntervalSeconds": 60
   },
   "lex": {
-    "botName": "OrderFlowers",
-    "initialText": "You can ask me for help ordering flowers. Just type \"order flowers\" or click on the mic and say it.",
-    "initialSpeechInstruction": "Say 'Order Flowers' to get started.",
+    "botName": "SuperBot",
+    "initialText": "Hi! I'm Super Bot, your HR policy assistant. I can help you with questions about company policies, benefits, leave policies, and more. Just ask me anything!",
+    "initialSpeechInstruction": "Ask me about HR policies to get started.",
     "initialUtterance": "",
     "region": "us-east-1",
     "retryOnLexPostTextTimeout": false,
@@ -30,7 +30,7 @@
   },
   "ui": {
     "parentOrigin": "http://localhost:8000",
-    "toolbarTitle": "Order Flowers",
+    "toolbarTitle": "Super Bot",
     "toolbarLogo": "",
     "positiveFeedbackIntent": "Thumbs up",
     "negativeFeedbackIntent": "Thumbs down",

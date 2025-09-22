@@ -1,10 +1,9 @@
-# Sample Amazon Lex Web Interface
+# Super Bot - HR Policy Assistant Web Interface
 
 # Overview
-This is a sample [Amazon Lex](https://aws.amazon.com/lex/)
-web interface. It provides a chatbot UI component that can be integrated
-in your website. The interface allows a user to interact with a Lex bot directly
-from a browser using text or voice.
+Super Bot is an intelligent HR policy assistant built on [Amazon Lex](https://aws.amazon.com/lex/)
+that provides a web interface for employees to get answers about company HR policies. 
+The interface allows users to interact with the HR policy bot directly from a browser using text or voice.
 
 It can be used as a full page chatbot UI:
 

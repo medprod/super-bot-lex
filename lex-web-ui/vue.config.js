@@ -29,7 +29,7 @@ const flowerLogoPath = path.resolve(
 );
 
 // HTML page title injected into index.html by webpack
-const pageTitle = 'Lex Web UI';
+const pageTitle = 'Super Bot - HR Policy Assistant';
 
 const buildType = {
   isLib: (process.env.BUILD_TARGET === 'lib'),

@@ -155,7 +155,7 @@ const configDefault = {
 
   ui: {
     // this dynamicall changes the pageTitle injected at build time
-    pageTitle: 'Order Flowers Bot',
+    pageTitle: 'Super Bot - HR Policy Assistant',
 
     // when running as an embedded iframe, this will be used as the
     // be the parent origin used to send/receive messages
@@ -173,7 +173,7 @@ const configDefault = {
     messageReceivedSFX: 'received.mp3',
 
     // chat window text placeholder
-    textInputPlaceholder: 'Type here or click on the mic',
+    textInputPlaceholder: 'Ask about HR policies or click on the mic',
 
     // text shown when you hover over the minimized bot button
     minButtonContent: '',
@@ -181,7 +181,7 @@ const configDefault = {
     toolbarColor: 'red',
 
     // chat window title
-    toolbarTitle: 'Order Flowers',
+    toolbarTitle: 'Super Bot',
 
     // toolbar menu start live chat label
     toolbarStartLiveChatLabel: "Start Live Chat",

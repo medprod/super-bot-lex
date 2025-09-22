@@ -275,13 +275,14 @@ Parameters:
     WebAppConfBotInitialText:
         Type: String
         Default: >
-            You can ask me for help ordering flowers. Just type "Buy
-            flowers" or click on the mic and say it.
+            Hi! I'm Super Bot, your HR policy assistant. I can help you with
+            questions about company policies, benefits, leave policies, and more.
+            Just ask me anything!
         Description: First bot message displayed in the chatbot UI
 
     WebAppConfBotInitialSpeech:
         Type: String
-        Default: Say 'Buy Flowers' to get started.
+        Default: Ask me about HR policies to get started.
         Description: >
             Message spoken by bot when the microphone is first pressed in
             a conversation
@@ -318,7 +319,7 @@ Parameters:
 
     WebAppConfToolbarTitle:
         Type: String
-        Default: Order Flowers
+        Default: Super Bot
         Description: Title displayed in the chatbot UI toolbar
 
     WebAppConfCname:
