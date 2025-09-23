@@ -1,1 +1,122 @@
-button.min-button {border-radius: 60px;}
+/* Blue theme matching OnCourse Home design */
+
+/* Toolbar styling with OnCourse Home blue */
+.toolbar.theme--dark {
+    background-color: #1e3a8a !important; /* Deep blue matching OnCourse Home */
+}
+
+.toolbar__title {
+  font-family: "Inter", "Segoe UI", sans-serif !important;
+  font-size: 1.875em !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+/* Chat background with light blue tint */
+.message-list-container {
+  background-color: #f8fafc !important; /* Very light blue-gray background */
+}
+
+/* Bot message bubbles with professional blue */
+.message-bot .message-bubble {
+    background-color: #e0f2fe !important; /* Light blue for bot messages */
+    border-left: 4px solid #1e3a8a !important; /* Blue accent border */
+}
+
+/* Human message bubbles with darker blue */
+.message-human .message-bubble {
+    background-color: #1e3a8a !important; /* OnCourse Home blue for user messages */
+    color: #ffffff !important;
+}
+
+.message-bubble {
+    border-radius: 12px !important; /* Slightly more rounded corners */
+    padding: 12px 18px !important;
+    box-shadow: 0 2px 4px rgba(30, 58, 138, 0.1) !important; /* Subtle blue shadow */
+}
+
+.message-text {
+  color: #1e293b; /* Dark blue-gray for text */
+  width: 100%;
+}
+
+/* Ensure white text on blue user messages */
+.message-human .message-text {
+    color: #ffffff !important;
+}
+
+.headline {
+    font-size: 1.2rem !important;
+    line-height: 1.4 !important;
+    color: #1e3a8a !important; /* Blue headlines */
+}
+
+.card__title {
+    padding: 10px 16px !important;
+    background-color: #f1f5f9 !important; /* Light blue-gray */
+    color: #1e3a8a !important;
+}
+
+.card__text {
+    padding: 8px 16px 16px !important;
+    line-height: 1.4;
+    color: #334155 !important; /* Medium blue-gray */
+}
+
+.card__title.card__title--primary {
+    background-color: #e0f2fe !important; /* Light blue background */
+    color: #1e3a8a !important;
+}
+
+.input-group--text-field input,
+.input-group--text-field textarea,
+.input-group--text-field label {
+    font-size: 14px !important;
+    color: #1e3a8a !important; /* Blue input text */
+}
+
+.input-group--text-field .input-group__input {
+    border-color: #1e3a8a !important; /* Blue border for inputs */
+}
+
+.card__actions .btn {
+  margin: 4px 4px !important;
+  font-size: 1em !important;
+  min-width: 44px !important;
+  background-color: #1e3a8a !important; /* OnCourse Home blue buttons */
+  color: #ffffff !important;
+  border-radius: 8px !important;
+}
+
+.card__actions .btn:hover {
+  background-color: #1e40af !important; /* Darker blue on hover */
+}
+
+/* Minimized button styling */
+button.min-button {
+    background-color: #1e3a8a !important;
+    border-color: #1e3a8a !important;
+    color: #ffffff !important;
+    border-radius: 60px;
+}
+
+button.min-button:hover {
+    background-color: #1e40af !important;
+    border-color: #1e40af !important;
+}
+
+/* Toolbar logo image crop to hide bottom text in provided logo */
+.toolbar-image {
+    width: 40px !important;
+    height: 40px !important;
+    object-fit: cover !important;
+    object-position: top center !important;
+    border-radius: 6px !important;
+    margin-left: 16px !important;
+    margin-right: 0px !important;
+}
+
+/* Reduce default spacing on the toolbar title text */
+.toolbar-title h2 {
+    margin: 0 !important;
+}

@@ -1,7 +1,7 @@
 {
   "region": "us-east-1",
   "cognito": {
-    "poolId": "us-east-1:5aaf4009-992c-4880-a6b4-1d3c170a91ee",
+    "poolId": "YOUR_COGNITO_POOL_ID_HERE",
     "aws_cognito_region": "us-east-1",
     "region": "us-east-1"
   },
@@ -21,8 +21,8 @@
     "region": "us-east-1",
     "retryOnLexPostTextTimeout": false,
     "retryCountPostTextTimeout": 1,
-    "v2BotId": "8AIX7XGIPS",
-    "v2BotAliasId": "F4K8HZMFJK",
+    "v2BotId": "YOUR_BOT_ID_HERE",
+    "v2BotAliasId": "YOUR_BOT_ALIAS_ID_HERE",
     "v2BotLocaleId": "en_US",
     "allowStreamingResponses": false,
     "streamingWebSocketEndpoint": "",

@@ -22,7 +22,7 @@
     "retryOnLexPostTextTimeout": false,
     "retryCountPostTextTimeout": 1,
     "v2BotId": "8AIX7XGIPS",
-    "v2BotAliasId": "F4K8HZMFJK",
+    "v2BotAliasId": "1",
     "v2BotLocaleId": "en_US",
     "allowStreamingResponses": false,
     "streamingWebSocketEndpoint": "",
