@@ -182,6 +182,14 @@
       <v-icon class="call-end"> {{ toolbarEndLiveChatIcon }} </v-icon>
     </v-btn>
 
+    <!-- Right-corner company logo next to help icon -->
+    <img
+      class="company-logo-right"
+      src="/company.jpg"
+      alt="company logo"
+      aria-hidden="true"
+    />
+
     <v-btn
       v-if="$store.state.isRunningEmbedded"
       v-on:click.stop="toggleMinimize"
@@ -194,6 +202,8 @@
         {{ isUiMinimized ? "chat" : "arrow_drop_down" }}
       </v-icon>
     </v-btn>
+
+    <v-spacer></v-spacer>
   </v-toolbar>
 </template>
 
@@ -581,6 +591,14 @@ export default {
 .toolbar-image {
   margin-left: 0px !important;
   max-height: 100%;
+}
+
+.company-logo-right {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  margin-left: 8px;
+  margin-right: 0;
 }
 
 .toolbar-title {

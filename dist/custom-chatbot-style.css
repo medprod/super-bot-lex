@@ -139,6 +139,68 @@ button.min-button {
     margin: 0 !important;
 }
 
+/* ===== Enhanced bottom input area ===== */
+/* Make the footer toolbar larger and with themed background */
+.input-container .toolbar-content {
+    background-color: #e0f2fe !important; /* light blue */
+    padding: 12px 16px !important;
+    box-shadow: 0 -2px 6px rgba(30, 58, 138, 0.12) !important;
+}
+
+/* Grow the text field height and font size */
+#text-input .v-field__input {
+    min-height: 52px !important;
+    padding: 10px 14px !important;
+    font-size: 16px !important;
+    background-color: #ffffff !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(30, 58, 138, 0.25) !important;
+}
+
+/* Placeholder color */
+#text-input input::placeholder {
+    color: #64748b !important; /* slate-500 */
+    opacity: 1 !important;
+}
+
+/* Make buttons align nicely with taller input */
+.input-button.v-btn {
+    margin-left: 8px !important;
+}
+
+/* Chat input field look like screenshot */
+.chat-input-field .v-field {
+    border-radius: 16px !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08) !important;
+}
+.chat-input-field .v-field__input {
+    min-height: 56px !important;
+    background-color: #ffffff !important;
+}
+.chat-input-field .v-label {
+    color: #9aa3af !important; /* grey placeholder */
+}
+.inside-field-btn.v-btn {
+    min-width: 0 !important;
+    height: 36px !important;
+    width: 36px !important;
+    color: #475569 !important;
+}
+
+/* Blue circular send button overlapping right edge */
+.send-button.v-btn {
+    background-color: #1e3a8a !important;
+    color: white !important;
+    border-radius: 9999px !important;
+    height: 48px !important;
+    width: 48px !important;
+    margin-left: 8px !important;
+    box-shadow: 0 4px 10px rgba(30,58,138,0.25) !important;
+}
+.send-button.v-btn:hover {
+    background-color: #1e40af !important;
+}
+
 .message-button {
     display: none;
 }

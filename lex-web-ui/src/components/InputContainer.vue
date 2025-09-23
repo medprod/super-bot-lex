@@ -19,11 +19,17 @@
         id="text-input"
         name="text-input"
         hide-details
-        density="compact"
-        variant="underlined"
-        class="toolbar-text"
+        density="comfortable"
+        variant="solo"
+        class="toolbar-text chat-input-field"
       >
-    </v-text-field>
+        <template v-slot:prepend-inner>
+          <v-btn class="inside-field-btn" icon="sentiment_satisfied_alt" variant="text" size="small" aria-label="emoji"></v-btn>
+          <v-btn class="inside-field-btn" variant="text" size="small" aria-label="attach file" @click.stop="onPickFile">
+            <v-icon size="small">attach_file</v-icon>
+          </v-btn>
+        </template>
+      </v-text-field>
 
       <recorder-status
         v-show="!shouldShowTextInput"
@@ -36,7 +42,7 @@
       @click="postTextMessage"
       :disabled="isLexProcessing || isSendButtonDisabled"
       ref="send"
-      class="icon-color input-button"
+      class="icon-color input-button send-button"
       aria-label="Send Message"
     >
       <v-tooltip activator="parent" location="start">
